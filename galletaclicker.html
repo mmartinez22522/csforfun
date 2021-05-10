@@ -1,0 +1,40 @@
+ <!--
+    Plan: make a cookie clicker game
+    How to do this?
+    Algorithim
+    1. Make cookeie and have it be clickicble and on click increase a var
+    - to make cookie i can use that special drawing thing but a div box will suffice momentarily
+    - onClick()
+    2. Display a var as cookie score
+        - I can have var score be displayed in its own special thing
+        -Maybe have a button that shows and hides the store, or I could have the store allways be present on the right
+    3. Make a store so they can buy auto clickers
+    4. More!!!!!
+ -->
+<head>
+    <!--<link href="gclicker.js">--> <!---->
+    <script type="text/javascript" src="gclicker.js"></script>
+    <link rel="stylesheet" href="gcstyle.css">
+</head>
+<body>
+<div id="mpage">
+    <div id="mgalleta">
+        <img src="images/lagalleta.png" class="mcgalleta" onclick="umclick()">
+    </div>
+    <div id="rightcont">
+        <div id="uscore">Tienes 0 galletas</div>
+        <div id="store">
+            <div id="buycont">
+                <div id="senor" onclick="buy('senor')">
+                    Un Senor: 0 Senors
+                </div>
+                <div id="farm" onclick="buy('farm')">Un Farm: 0 Farms</div>
+            </div>
+            <div id="cost">
+                <div id="csenor">Cost: 0 galletas</div>
+                <div id="cfarm">Cost: 0 galletas</div>
+            </div>
+        </div>
+    </div>
+</div>
+<body>
